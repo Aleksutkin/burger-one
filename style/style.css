@@ -201,9 +201,9 @@ main {
          padding-top: 30px;
         }  
         nav.menu-burger-1 {
-         width: 66%;
+         width: 70%;
          height: 650px;
-         margin: 0 auto;
+         margin: 0 15%;
          /*border: 0.1px solid red;*/
         }
             .menu-burger-1 nav {
@@ -261,32 +261,36 @@ main {
         nav.delivery h1 {
 	     color: #dfe3f7;
 	     font-size: 41px;
-	     padding-left: 250px;
+	     margin-left: 15%;
 	     padding-top: 30px;
 	    }
         nav.delivery-photo {
          width: 70%;
          height: 105px;
-         margin: 0 auto;
+         margin: 0 15%;
          /*border: 0.1px solid red;*/
 	    }
 	        nav.delivery-photo nav {
-	         width: 24%;
+	         width: 33%;
 	         height: 103px;
 	         float: left;
-	         margin: 0 30px;
-	         /*border: 0.1px solid brown;*/
+	         margin: 0 0;
+			 display: flex;
+			 align-items: center;
 	        }
+			    nav.delivery-photo nav img {
+				width: 30%;
+				float: left;
+				}
 	            nav.delivery-photo nav p {
+				 width: 66%;
 	             font-size: 17px;
 	             color: #dfe3f7;
 	             float: right;
-	             padding-top: 22px;
-	             margin-left: 5px;
-	             /*border: 0.1px solid brown;*/
+				 margin-left: 4%;
 	            }
 	    nav.delivery-button {
-	     margin-left: 250px;
+	     margin-left: 15%;
 	     margin-top: 70px;
 	    }
 	        nav.delivery-button a {
@@ -307,19 +311,21 @@ main {
     }
         nav.yandex-map {
 	     height: 461px;
-	     width: 50%;
+	     width: 40%;
 	     float: left;
+		 margin-left: 15%;
 	     /*border: 0.1px solid brown;*/
 	    }
 	        .yandex-map p{
-	         text-align: center;
+	         text-align: left;
 	         margin-top: 225px;
 	         font-size: 19px;
 	        }
 	    nav.call-to-me {
 	     height: 461px;
-	     width: 50%;
+	     width: 30%;
 	     float: left;
+		 margin-right: 15%;
 	     /*border: 0.1px solid brown;*/
 	    }
 	        .call-to-me form {
@@ -379,7 +385,8 @@ background-size: cover;
 /*border: 1px solid brown;*/
 }
     footer nav.foot {
-	 width: 100%;
+	 width: 70%;
+	 margin: 0 15%;
 	 height: 58px;
 	 color: #ffffff;
 	 text-align: center;
@@ -393,7 +400,7 @@ background-size: cover;
 		 margin-top: 8px;
         }
         nav.foot nav:nth-of-type(3) {
-	     font-size: 13px;
+	     font-size: 14px;
 	     width: 25%;
 	     float: left;
 	     margin-top: 22px;
