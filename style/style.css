@@ -1,0 +1,427 @@
+﻿body {
+ height: 100%;
+ width: 100%;
+ margin: 0 0;
+ font-family: "RobotoSlab-Bold", serif;
+ /*border: 1px solid green;*/
+}
+header {
+ height: 107px;
+ width: 100%;
+ background-image: url(../image/wood-1.png);
+ background-position: center;
+ background-repeat: repeat;
+ background-size: 100%;
+ text-align: center;
+ /*border: 1px solid yellow;*/
+}
+    nav.head-page{
+	margin: 0 15%;
+    width: 70%;
+	height: 107px;
+	}
+    nav.head-logo {
+     width: 12%;
+     height: 107px;
+     float: left;
+     text-align: center;
+     /*border: 1px solid red;*/
+    }
+        nav.head-logo img {
+         margin-top: 8px;		
+	    }
+    nav.head-button {
+     float: left;
+     width: 54%;
+     height: 107px;
+     text-align: center;
+	   display: flex;
+	   align-items: center;
+     /*border: 1px solid brown;*/
+    }
+	
+        nav.head-button a {
+	     font-weight: bold;
+	     margin-left: 23px;
+	     font-size: 13px;
+	     color: #45280e;
+	     text-decoration: none;
+	    }
+	    nav.head-button a:nth-of-type(2) {
+         font-size: 13px;
+         font-weight: bold;
+         color: #ffddb6;
+         text-decoration: none;
+         background-color: #45280e;
+         border: 7px solid #45280e;
+         border-radius: 4px;
+	     margin-left: 16px;
+        }
+	    nav.head-button a:nth-of-type(3) {
+	     margin-left: 16px;
+	    }
+    nav.head-basket {
+     float: left;
+     width: 16%;
+     height: 107px;
+     display: flex;
+	 align-items: center;
+     /*border: 1px solid brown;*/
+    }
+        .head-basket img {
+	     float: left;
+	     /*border: 1px solid brown;*/
+	    }
+	    .head-basket p {
+	     font-family: "RobotoSlab-Bold", serif;
+	     font-size: 17px;
+	     float:left;
+		 padding-left: 7px;
+	    }
+        .head-basket p>span {
+		 font-family: "RobotoSlab-Regular", serif;
+	     font-size: 12px;
+	     float: left;
+	    }
+    nav.head-order {
+     float: left;
+     width: 18%;
+     height: 107px;
+     display: flex;
+	 align-items: center;
+     /*border: 1px solid brown;*/
+    }
+        .head-order input {
+	     width: 125px;
+	     height: 39px;
+	     float: left;
+         background-color: #bb1717;
+         color: white;
+	     border: 1px solid #bb1717;
+	     border-radius: 4px;
+         font-family: "RobotoSlab-Bold", serif;
+	    }
+		
+main {
+ height: 3066px;
+ width: 100%;
+ margin: 0 0;
+ /*border: 1px solid red;*/
+}
+    nav.info {
+     float: left;
+     width: 100%;
+     height: 648px;
+     background-image: url(../image/background-image.png);
+     background-position: center;
+	 background-size: cover;
+     background-repeat: no-repeat;
+     text-align: center;
+    }
+        nav.info h1 {
+	     color: white;
+	     padding-top: 20px;
+	     font-size: 35px;
+	    }
+	    nav.info h1>span {
+	     font-size: 60px;
+     	}
+	    nav.info nav.info-photo {
+	     height: 250px;
+	     width: 70%;
+	     color: white;
+	     margin: 50px 15%;
+	     /*border: 1px solid red;*/
+	    }
+	        nav.info-photo nav {
+		     width: 25%;
+		     text-align: center;
+		     float: left;
+		     /*border: 1px solid red;*/
+	        }
+	        nav.info-photo nav:not(:last-of-type){
+		     /*margin-right: 55px;*/
+	        }
+	    nav.info-button {
+	  	 margin: 25px auto 0;
+	    }
+	        .info-button a {
+	         font-size: 19px;
+             font-weight: bold;
+             color: white;
+             text-decoration: none;
+             background-color: #bb1717;
+	         padding: 24px 42px;
+             border-radius: 4px;
+	        }
+    nav.features {
+     float: left;
+     width: 100%;
+     height: 575px;
+     background-image: url(../image/wood-2.png);
+     background-position: center;
+	 background-size: cover;
+     background-repeat: no-repeat;
+     /*border: 1px solid green;*/
+    }
+        nav.features-burgers {
+	     float: left;
+         width: 42.3%;
+         height: 575px;
+		 margin-left: 15%; 
+	     /*border: 1px solid brown;*/
+	    }
+	        nav.features-burgers h1 {
+	         font-size: 41px;
+	         padding-top: 30px;
+	        }
+	        nav.features-burgers p {
+	         font-size: 16px;
+	         font-family: "RobotoSlab-Regular", serif;
+	        }
+        nav.features-image {
+	     float: left;
+         width: 42.7%;
+         height: 575px;
+		 background-image: url(../image/features-image.png);
+         background-position: 0 0;
+	     background-size: cover;
+         background-repeat: no-repeat;		 
+		}			
+    nav.menu {
+     float: left;
+     width: 100%;
+     height: 865px;
+     background-image: url(../image/menu-1.png);
+     background-size: 100%;
+    }
+        .menu h1 {
+         font-size: 41px;
+         margin-left: 15%;
+         padding-top: 30px;
+        }  
+        nav.menu-burger-1 {
+         width: 66%;
+         height: 650px;
+         margin: 0 auto;
+         /*border: 0.1px solid red;*/
+        }
+            .menu-burger-1 nav {
+	         width: 23%;
+	         height: 269px;
+	         float: left;
+	         background-color: white;
+	         margin-top: 2%;
+	         border-radius: 3px;
+	         box-shadow: 0 3px 5px 2px #d1d1d1;
+	         /*border: 0.1px solid brown;*/
+	        }
+			nav.select-burger {
+			 height: 149px;
+			 width: 100%;
+	         background-image: url(../image/menu-burger.png);
+             background-repeat: no-repeat;
+			 background-size: cover;
+			 background-position: center;
+			 margin: 0;
+			 box-shadow: none;
+			 border-radius: 3px 3px 0 0;
+			}
+	        .menu-burger-1 nav:not(:nth-of-type(4)):not(:nth-of-type(8)) {
+	         margin-right: 2%;
+	        }
+	            .menu-burger-1 nav p {
+	             font-size: 15px;
+	             color: #281f17;
+	             padding-top: 150px;
+	             padding-left: 15px;
+	            }
+				.menu-burger-1 nav p>span {
+				 font-family: "RobotoSlab-Regular", serif;
+				}
+	            .menu-burger-1 a {
+                 font-size: 11px;
+                 font-weight: bold;
+                 color: white;
+                 text-decoration: none;
+                 background-color: #bb1717;
+	             margin-left: 15px;
+                 border-radius: 4px;
+	             padding: 8px 20px;
+	            }
+    nav.delivery {
+     float: left;
+     width: 100%;
+     height: 515px;
+     background-image: url(../image/black-wood-1.png);
+     background-position: center;
+     background-repeat: no-repeat;
+	 background-size: cover;
+    }
+        nav.delivery h1 {
+	     color: #dfe3f7;
+	     font-size: 41px;
+	     padding-left: 250px;
+	     padding-top: 30px;
+	    }
+        nav.delivery-photo {
+         width: 70%;
+         height: 105px;
+         margin: 0 auto;
+         /*border: 0.1px solid red;*/
+	    }
+	        nav.delivery-photo nav {
+	         width: 24%;
+	         height: 103px;
+	         float: left;
+	         margin: 0 30px;
+	         /*border: 0.1px solid brown;*/
+	        }
+	            nav.delivery-photo nav p {
+	             font-size: 17px;
+	             color: #dfe3f7;
+	             float: right;
+	             padding-top: 22px;
+	             margin-left: 5px;
+	             /*border: 0.1px solid brown;*/
+	            }
+	    nav.delivery-button {
+	     margin-left: 250px;
+	     margin-top: 70px;
+	    }
+	        nav.delivery-button a {
+	         font-size: 19px;
+             font-weight: bold;
+             color: white;
+             text-decoration: none;
+             background-color: #bb1717;
+	         padding: 25px 40px;
+             border-radius: 4px;	 
+	        }
+    nav.map {
+     float: left;
+     width: 100%;
+     height: 463px;
+     background-color: #dfe3f7;
+	 background-size: cover;
+    }
+        nav.yandex-map {
+	     height: 461px;
+	     width: 50%;
+	     float: left;
+	     /*border: 0.1px solid brown;*/
+	    }
+	        .yandex-map p{
+	         text-align: center;
+	         margin-top: 225px;
+	         font-size: 19px;
+	        }
+	    nav.call-to-me {
+	     height: 461px;
+	     width: 50%;
+	     float: left;
+	     /*border: 0.1px solid brown;*/
+	    }
+	        .call-to-me form {
+	         font-family: "RobotoSlab-Bold", serif;
+	         width: 300px;
+	         height: 329px;
+	         margin-top: 70px;
+	         margin-left: 100px;
+	         text-align: center;
+	         border: 0.1px solid white;
+	         background-color: white;
+	         border-radius: 3px;
+	         box-shadow: 0 0 5px 3px #cdd0e3;
+	        }
+	            form h1>span {
+		         font-family: "RobotoSlab-Light", serif;
+		         font-size: 15px;
+		        }
+	            form input {
+	             font-family: "RobotoSlab-Light", serif;
+		         width: 251px;
+		         height: 52px;
+		         border-radius: 3px;
+		         margin-top: 15px;
+		        }
+		        form input:not([type="submit"]) {
+		         border: 1px solid #dadadb;
+		         border-radius: 3px;
+		         padding-left: 13px;
+		        }
+		            form input::placeholder {
+		             padding-left: 13px;
+		             font-family: "RobotoSlab-Regular", serif;
+		             color: #dadadb;
+		            }
+		        form input:last-of-type {
+	             width: 265px;
+		         background-color: #bb1717;
+		         color: white;
+		         border: 1px solid #bb1717;
+		         border-radius: 4px;
+                 font-weight: bold;
+		         font-family: "RobotoSlab-Bold", serif;
+		        }
+                    form input::value {
+		             padding-left: 16px;
+		            }
+		
+footer {
+height: 60px;
+width: 100%;
+margin: 0 0;
+background-image: url(../image/black-wood-1.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+/*border: 1px solid brown;*/
+}
+    footer nav.foot {
+	 width: 100%;
+	 height: 58px;
+	 color: #ffffff;
+	 text-align: center;
+  }
+        nav.foot nav:not(:nth-of-type(3)) {
+		 font-family: "RobotoSlab-Light", serif;
+		 font-size: 13px;
+		 width: 25%;
+		 float: left;
+		 color: #dfe3f7;
+		 margin-top: 8px;
+        }
+        nav.foot nav:nth-of-type(3) {
+	     font-size: 13px;
+	     width: 25%;
+	     float: left;
+	     margin-top: 22px;
+        }
+        .foot nav a {
+		 text-decoration: none;
+		 color: white;
+		 border: 1px solid white;
+		 border-radius: 4px;
+		 padding: 10px 27px;
+	    }
+		
+	
+@font-face {
+font-family: "RobotoSlab-Regular";  
+src: url("../fonts/RobotoSlab-Regular.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal;
+ }
+@font-face{
+ font-family: "RobotoSlab-Bold";
+ src: url("../fonts/RobotoSlab-Bold.ttf") format("truetype");
+ font-style: normal; 
+font-weight: normal; 
+}
+@font-face{
+ font-family: "RobotoSlab-Light";
+ src: url("../fonts/RobotoSlab-Light.ttf") format("truetype");
+ font-style: normal; 
+font-weight: normal; 
+}
